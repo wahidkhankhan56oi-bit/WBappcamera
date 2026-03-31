@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1a1a2e"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WB Camera"
+        android:textSize="32sp"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Wahid Developer"
+        android:textSize="18sp"
+        android:textColor="#4CAF50"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/etCode"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Enter Code"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
